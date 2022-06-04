@@ -1,0 +1,89 @@
+
+#(C) 2015 by Fachinformationszentrum Karlsruhe.  All rights reserved.
+data_168755-ICSD
+_database_code_ICSD 168755
+_audit_creation_date 2011-02-01
+_chemical_name_systematic 'Terbium phosphate - HP, scheelite-type, hypothetical'
+_chemical_formula_structural 'Tb (P O4)'
+_chemical_formula_sum 'O4 P1 Tb1'
+_chemical_name_structure_type Scheelite-CaWO4
+_exptl_crystal_density_diffrn 6.95
+_cell_measurement_pressure 20500000.
+_publ_section_title
+
+;
+Theoretical and experimental study of the structural stability of Tb P O4 at
+high pressures
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Physical Review, Serie 3. B - Condensed Matter (18,1978-)' 2010 81
+144126-1 144126-9 PRBMDO
+loop_
+_publ_author_name
+'Lopez Solano, J.'
+'Rodriguez Hernandez, P.'
+'Munoz, A.'
+'Gomis, O.'
+'Santamaria Perez, D.'
+'Errandonea, D.'
+'Manjon, F.J.'
+'Kumar, R.S.'
+'Stavrou, E.'
+'Raptis, C.'
+_cell_length_a 4.724
+_cell_length_b 4.724
+_cell_length_c 10.867
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 242.51
+_cell_formula_units_Z 4
+_symmetry_space_group_name_H-M 'I 41/a Z'
+_symmetry_Int_Tables_number 88
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 '-y+3/4, x+3/4, -z+3/4'
+2 'y+1/4, -x+3/4, -z+3/4'
+3 'x, y+1/2, -z'
+4 '-x, -y, -z'
+5 'y+1/4, -x+1/4, z+1/4'
+6 '-y+3/4, x+1/4, z+1/4'
+7 '-x, -y+1/2, z'
+8 'x, y, z'
+9 '-y+1/4, x+1/4, -z+1/4'
+10 'y+3/4, -x+1/4, -z+1/4'
+11 'x+1/2, y, -z+1/2'
+12 '-x+1/2, -y+1/2, -z+1/2'
+13 'y+3/4, -x+3/4, z+3/4'
+14 '-y+1/4, x+3/4, z+3/4'
+15 '-x+1/2, -y, z+1/2'
+16 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Tb 3
+P 5
+O -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+Tb1 Tb 4 b 0 0.25 0.625 . 1. 0
+P1 P 4 a 0 0.25 0.125 . 1. 0
+O1 O 16 f 0.243 0.124 0.0486 . 1. 0
+#End of TTdata_168755-ICSD

@@ -1,0 +1,61 @@
+
+#######################################################################
+#
+#                 Cambridge Crystallographic Data Centre
+#                                CCDC 
+#
+#######################################################################
+#
+# If this CIF has been generated from an entry in the Cambridge 
+# Structural Database, then it will include bibliographic, chemical, 
+# crystal, experimental, refinement or atomic coordinate data resulting 
+# from the CCDC's data processing and validation procedures.
+#
+#######################################################################
+
+data_3D
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P1'
+_symmetry_Int_Tables_number      1
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+_cell_length_a                   9.076
+_cell_length_b                   5.298
+_cell_length_c                   200.0
+_cell_angle_alpha                90
+_cell_angle_beta                 111.5
+_cell_angle_gamma                90
+_cell_volume                     17895.5
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr0 Zr 0.760600156699 0.25 0.0417178279256
+Zr1 Zr 0.239399703854 0.75 0.039382156207
+P2 P 0.000800456610887 0.752000755002 0.0497061766582
+P3 P 0.999200505749 0.247999244998 0.0313938074744
+P4 P 0.528899804539 0.755 0.032083175369
+P5 P 0.471100490028 0.245 0.0490168625028
+O6 O 0.105000484156 0.806000377501 0.0454160061612
+O7 O 0.104000455203 0.76 0.0580675836949
+O8 O 0.343999847109 0.442999244998 0.0455781914049
+O9 O 0.511999668628 0.242999244998 0.0571755111153
+O10 O 0.625000377141 0.313999622499 0.0478489997739
+O11 O 0.0660000190058 0.513999622499 0.032358911779
+O12 O 0.417999704165 0.986000377501 0.0461458934972
+O13 O 0.374999483412 0.686000377501 0.0332509843587
+O14 O 0.933999841547 0.486000377501 0.0487410723535
+O15 O 0.582000156388 0.0139996224991 0.0349540906354
+O16 O 0.894999376397 0.193999622499 0.0356839779713
+O17 O 0.895999405351 0.24 0.0230324004377
+O18 O 0.656000013445 0.557000755002 0.0355217927276
+O19 O 0.488000191925 0.757000755002 0.0239244730173
+O20 O 0.582000156388 1.0139996225 0.0349540906354
+O21 O 0.131000376876 1.0589996225 0.0333320769805
+
+
+#END
