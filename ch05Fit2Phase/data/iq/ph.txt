@@ -1,0 +1,1 @@
+Couple bytes under each chapters data dir, so that dir structure shows up on gitlab. Delete once your data is added. 
