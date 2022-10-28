@@ -14,7 +14,7 @@ print(struc)
 k = np.array([0.5,0.5,0.5]) # known propagation vector for MnO
 svec = np.array([1.0,-1.0,0.0]) # spins point parallel or anti-parallel to this direction
 MnList = [0,1,2,3] # list of indices of the Mn atoms in the unit cell
-msp = MagSpecies(struc,magIdxs=MnList,ffparamkey='Mn2',rmaxAtoms=50,basisvecs=svec,
+msp = MagSpecies(struc,strucIdxs=MnList,ffparamkey='Mn2',rmaxAtoms=50,basisvecs=svec,
                 kvecs=k,label='Mn')
 
 
@@ -106,8 +106,7 @@ plt.show()
 
 
 ### Plot the total PDF (atomic + magnetic) with the total fit
-r, gcalc, gdiff = np.loadtxt('MnOfit_atomicStructureOnly.fgr',skiprows=14,unpack=True)[[0,1,3]]
-gobs = gdiff + gcalc
+r, gobs, gcalc, gdiff = read_fgr('MnOfit_atomicStructureOnly.fgr')
 mdiff = d - fit
 
 offset1 = 1.2*gobs.min()
