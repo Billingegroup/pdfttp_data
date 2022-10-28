@@ -21,6 +21,11 @@ from diffpy.srfit.pdf import PDFParser, PDFGenerator
 from diffpy.structure.parsers import getParser
 from diffpy.structure.atom import Atom
 from diffpy.srfit.structure import constrainAsSpaceGroup
+try:
+    from bg_mpl_stylesheets.bg_mpl_stylesheet import bg_mpl_style
+    plt.style.use(bg_mpl_style)
+except ImportError:
+    pass
 
 ############### Config ##############################
 # 2: Give a file path to where your pdf (.gr) and (.cif) files are located.
@@ -227,7 +232,7 @@ def plot_results(recipe, fig_name):
     # Calculate the residual (difference) array and offset it vertically.
     diff = g - gcalc + diffzero
 
-    # Change some style detials of the plot
+    # Change some style details of the plot
     mpl.rcParams.update(mpl.rcParamsDefault)
     if (PWD.parent.parent.parent / "utils" / "billinge.mplstyle").exists():
         plt.style.use(str(PWD.parent.parent.parent /

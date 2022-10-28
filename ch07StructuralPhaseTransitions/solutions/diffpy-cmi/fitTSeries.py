@@ -20,6 +20,11 @@ from diffpy.srfit.fitbase import Profile
 from diffpy.srfit.structure import constrainAsSpaceGroup
 from diffpy.srfit.pdf import PDFParser, PDFGenerator
 from diffpy.structure.parsers import getParser
+try:
+    from bg_mpl_stylesheets.bg_mpl_stylesheet import bg_mpl_style
+    plt.style.use(bg_mpl_style)
+except ImportError:
+    pass
 
 ############### Config ##############################
 # 2: Give a file path to where your pdf (.gr) and (.cif) files are located.

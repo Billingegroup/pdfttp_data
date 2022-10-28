@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 
 from diffpy.mpdf import *
 from diffpy.structure import loadStructure
+try:
+    from bg_mpl_stylesheets.bg_mpl_stylesheet import bg_mpl_style
+    plt.style.use(bg_mpl_style)
+except ImportError:
+    pass
 
 ### Load in the refined atomic structure produced by the atomic PDF fits
 struc = loadStructure('MnOfitStruc.stru')
@@ -97,8 +102,8 @@ fit = mfit.evaluateEquation("mpdf")
 ax=plt.figure().add_subplot(111)
 ax.plot(r, d, 'bo', label="mPDF data", markerfacecolor='none', markeredgecolor='b')
 ax.plot(r, fit, 'r-', lw=2, label="mPDF fit")
-ax.set_xlabel(r"r ($\AA$)")
-ax.set_ylabel(r"D ($\AA^{-2}$)")
+ax.set_xlabel(r"r ($\mathdefault{\AA}$)")
+ax.set_ylabel(r"d ($\mathdefault{\AA^{-2}}$)")
 ax.set_xlim(xmax=mc.rmax)
 plt.legend(loc=1)
 plt.tight_layout()
@@ -122,8 +127,8 @@ ax.plot(r,fit+offset1,'r-',lw=2) ### calculated mPDF
 ax.plot(r,np.zeros_like(r)+offset2,'k:')
 ax.plot(r,mdiff+offset2,'g-') ### overall fit residual after including atomic and magnetic PDFs
 ax.set_xlim(xmin=0,xmax=mc.rmax)
-ax.set_xlabel('r ($\AA$)')
-ax.set_ylabel('G, d ($\AA^{-2}$)')
+ax.set_xlabel(r"r ($\mathdefault{\AA}$)")
+ax.set_ylabel(r"G, d ($\mathdefault{\AA^{-2}}$)")
 plt.tight_layout()
 plt.show()
 
