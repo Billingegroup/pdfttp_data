@@ -1,5 +1,5 @@
 """
-Please see notes in Chapter 7 of the 'PDF to the People' book for additonal
+Please see notes in Chapter 7 of the 'PDF to the People' book for additional
 explanation of the code.
 
 This Diffpy-CMI script will carry out a structural refinement of a measured
